@@ -1,0 +1,15 @@
+// Helpers
+
+.pl-lg {
+  padding-left: 10px !important;
+  @media (min-width: 992px) {
+    padding-left: 80px !important;
+  }
+}
+
+.pr-lg {
+  padding-right: 10px !important;
+  @media (min-width: 992px) {
+    padding-right: 80px !important;
+  }
+}

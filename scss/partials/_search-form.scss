@@ -1,0 +1,78 @@
+// Site Search Form Styles
+
+.site-search-form-input {
+  font-size: 30px;
+  background: none;
+  padding: 20px;
+  color: $white;
+  border: none;
+  width: 80%;
+  max-width: 80%;
+  @media (min-width: 992px) {
+    font-size: 50px;
+    width: auto;
+  }
+  &:focus {
+    outline: none;
+  }
+  &::-webkit-input-placeholder {
+    color: $medium-grey;
+  }
+  &::-moz-placeholder {
+    color: $medium-grey;
+  }
+  &:-ms-input-placeholder {
+    color: $medium-grey;
+  }
+  &:-moz-placeholder {
+    color: $medium-grey;
+  }
+}
+.site-search-form-button {
+  background: url('../img/icons/icon-search-white.svg') center no-repeat;
+  height: 35px;
+  width: 35px;
+  @media (min-width: 992px) {
+    height: 50px;
+    width: 50px;
+  }
+  border: none;
+}
+
+// Cars Search Form Styles
+
+.car-search-form {
+  padding: 27px 0;
+  label {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    display: block;
+  }
+  select {
+    -webkit-appearance: button;
+    -webkit-border-radius: 0px;
+    -webkit-user-select: none;
+    background: url('../img/icons/select-arrow.jpg') center right 20px no-repeat;
+    border: 2px solid #cdd1d4;
+    color: #9aa0a5;
+    overflow: hidden;
+    padding: 12px 20px 11px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 20px;
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+    }
+    @include transition (all, 0.3s, ease);
+    &:hover {
+      cursor: pointer;
+      background: url('../img/icons/select-arrow-dark.jpg') center right 20px no-repeat;
+      border: 2px solid #3e4852;
+      -webkit-box-shadow: 0px 3px 25px -5px rgba(62,72,82,0.5);
+      -moz-box-shadow: 0px 3px 25px -5px rgba(62,72,82,0.5);
+      box-shadow: 0px 3px 25px -5px rgba(62,72,82,0.5);
+    }
+  }
+}

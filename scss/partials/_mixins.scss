@@ -1,0 +1,14 @@
+// Mixins
+
+@mixin transition($what: all, $time: 0.2s, $how: ease-in-out) {
+  -webkit-transition: $what $time $how;
+  -moz-transition:    $what $time $how;
+  -ms-transition:     $what $time $how;
+  -o-transition:      $what $time $how;
+  transition:         $what $time $how;
+}
+
+@mixin transition-delay($time: 0.2s){
+  -webkit-transition-delay: $time;
+  transition-delay: $time;
+}

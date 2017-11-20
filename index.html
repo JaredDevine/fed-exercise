@@ -1,0 +1,274 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>AutoSales.com</title>
+        <meta name="description" content="The Car of Your Dreams is Only a Click Away!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="dist/bundle.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <header class="site-header d-flex justify-content-between align-items-center">
+            <div class="brand d-flex justify-content-between align-items-center">
+                <div class="brand-logo">
+                    <img src="img/icons/logo-autosales.svg" alt="AutoSales.com Logo" />
+                </div>
+                <h1 class="brand-name"><a href="#">AutoSales.com</a></h1>
+            </div>
+            <nav>
+                <ul class="header-menu">
+                    <li class="header-menu-item"><a href="#">Cars for Sale</a></li>
+                    <li class="header-menu-item"><a href="#">Sell My Car</a></li>
+                    <li class="header-menu-item"><a href="#">Find a Dealer</a></li>
+                    <li class="header-menu-item"><a href="#">Contact Us</a></li>
+                    <li class="header-menu-item header-menu-item_search"><img src="img/icons/icon-search-white.svg" class="search-icon" alt="White search icon" /></li>
+                    <li class="header-menu-item header-menu-item_menu-toggle">
+                        <div class="menu-toggle-icon">
+                            <span class="menu-toggle-line menu-toggle-line_first"></span>
+                            <span class="menu-toggle-line menu-toggle-line_second"></span>
+                            <span class="menu-toggle-line menu-toggle-line_third"></span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="desktop-menu-toggle">
+                <div class="menu-toggle-icon">
+                    <span class="menu-toggle-line menu-toggle-line_first"></span>
+                    <span class="menu-toggle-line menu-toggle-line_second"></span>
+                    <span class="menu-toggle-line menu-toggle-line_third"></span>
+                </div>
+            </div>
+        </header>
+        <nav class="mobile-menu-overlay d-flex justify-content-center align-items-center">
+            <ul class="mobile-menu">
+                <li class="mobile-menu-item"><a href="#">Cars for Sale</a></li>
+                <li class="mobile-menu-item"><a href="#">Sell My Car</a></li>
+                <li class="mobile-menu-item"><a href="#">Find a Dealer</a></li>
+                <li class="mobile-menu-item"><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-overlay d-flex justify-content-center align-items-center">
+            <form class="site-search-form">
+                <input type="text" id="site-search-form-input" class="site-search-form-input" placeholder="Enter Your Search..." required>
+                <button class="site-search-form-button" type="submit"></button>
+            </form>
+        </div>
+        <div class="site-hero">
+            <div class="site-hero-background"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col" data-aos="fade" data-aos-duration="7000" data-aos-delay="300" data-aos-once="true">
+                        <h2 class="hero-title">The Car of Your Dreams<br> is Only a Click Away!</h2>
+                        <a href="#" class="button button-large button-green">Get Started Now</a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="car-search-form">
+            <div class="container">
+                <form>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="carMake">Car Make</label>
+                            <select id="carMake">
+                                <option selected>Make</option>
+                                <option value="1">Honda</option>
+                                <option value="2">Audi</option>
+                                <option value="3">Chevy</option>
+                                <option value="4">Ford</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="carModel">Car Model</label>
+                            <select id="carModel">
+                                <option selected>Model</option>
+                                <option value="1">Car</option>
+                                <option value="2">SUV</option>
+                                <option value="3">Truck</option>
+                            </select>   
+                        </div>
+                        <div class="col-md-3">
+                            <label for="carPrice">Car Price</label>
+                            <select id="carPrice">
+                                <option selected>Price</option>
+                                <option value="1">$30,000</option>
+                                <option value="2">$40,000</option>
+                                <option value="3">$50,000</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="button button-red button_submit" type="submit">Find My Dream Car</button>    
+                        </div>
+                    </div>
+                </form>  
+            </div>
+        </div>
+        <div class="site-content">
+            <div class="featured-cars featured-cars-grey">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 order-md-12">
+                            <ul class="featured-cars-images">
+                                <li class="featured-cars-image" data-aos="fade-right" data-aos-delay="600" data-aos-duration="700" data-aos-once="true">
+                                    <a href="#" class="d-flex justify-content-center align-items-center featured-cars-image-overlay">
+                                        <div>
+                                            <h3>Honda Car</h3>
+                                            <span class="line-break"></span>
+                                            <p>Learn More</p>
+                                        </div>
+                                    </a>
+                                    <img src="img/honda-car.jpg" alt="Photo of Honda car" />
+                                </li>
+                                <li class="featured-cars-image" data-aos="fade-right" data-aos-delay="700" data-aos-duration="700" data-aos-once="true">
+                                    <a href="#" class="d-flex justify-content-center align-items-center featured-cars-image-overlay">
+                                        <div>
+                                            <h3>Honda SUV</h3>
+                                            <span class="line-break"></span>
+                                            <p>Learn More</p>
+                                        </div>
+                                    </a>
+                                    <img src="img/honda-suv.jpg" alt="Photo of Honda SUV" />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 order-md-1 pr-lg" data-aos="fade" data-aos-delay="500" data-aos-duration="700" data-aos-once="true">
+                            <h3 class="featured-cars-title">Honda Cars and SUVs</h3>
+                            <p class="featured-cars-content">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.</p>
+                            <a href="#" class="button button-medium button-blue featured-cars-link">View All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-cars">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="featured-cars-images">
+                                <li class="featured-cars-image" data-aos="fade-left" data-aos-delay="200" data-aos-duration="700" data-aos-once="true">
+                                    <a href="#" class="d-flex justify-content-center align-items-center featured-cars-image-overlay">
+                                        <div>
+                                            <h3>Audi Car</h3>
+                                            <span class="line-break"></span>
+                                            <p>Learn More</p>
+                                        </div>
+                                    </a>
+                                    <img src="img/audi-car.jpg" alt="Photo of Audi car" />
+                                </li>
+                                <li class="featured-cars-image" data-aos="fade-left" data-aos-delay="100" data-aos-duration="700" data-aos-once="true">
+                                    <a href="#" class="d-flex justify-content-center align-items-center featured-cars-image-overlay">
+                                        <div>
+                                            <h3>Audi SUV</h3>
+                                            <span class="line-break"></span>
+                                            <p>Learn More</p>
+                                        </div>
+                                    </a>
+                                    <img src="img/audi-suv.jpg" alt="Photo of Audi SUV" />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 pl-lg" data-aos="fade" data-aos-duration="700" data-aos-once="true">
+                            <h3 class="featured-cars-title">Audi Cars and SUVs</h3>
+                            <p class="featured-cars-content">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.</p>
+                            <a href="#" class="button button-medium button-blue featured-cars-link">View All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-cars featured-cars-grey">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 order-md-12">
+                            <ul class="featured-cars-images">
+                                <li class="featured-cars-image" data-aos="fade-right" data-aos-delay="100" data-aos-duration="700" data-aos-once="true">
+                                    <a href="#" class="d-flex justify-content-center align-items-center featured-cars-image-overlay">
+                                        <div>
+                                            <h3>Chevy Car</h3>
+                                            <span class="line-break"></span>
+                                            <p>Learn More</p>
+                                        </div>
+                                    </a>
+                                    <img src="img/chevy-car.jpg" alt="Photo of Chevy car" />
+                                </li>
+                                <li class="featured-cars-image" data-aos="fade-right" data-aos-delay="200" data-aos-duration="700" data-aos-once="true">
+                                    <a href="#" class="d-flex justify-content-center align-items-center featured-cars-image-overlay">
+                                        <div>
+                                            <h3>Chevy SUV</h3>
+                                            <span class="line-break"></span>
+                                            <p>Learn More</p>
+                                        </div>
+                                    </a>
+                                    <img src="img/chevy-suv.jpg" alt="Photo of Chevy SUV" />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 order-md-1 pr-lg" data-aos="fade" data-aos-duration="700" data-aos-once="true">
+                            <h3 class="featured-cars-title">Chevy Cars and SUVs</h3>
+                            <p class="featured-cars-content">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.</p>
+                            <a href="#" class="button button-medium button-blue featured-cars-link">View All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-cars">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="featured-cars-images">
+                                <li class="featured-cars-image" data-aos="fade-left" data-aos-delay="200" data-aos-duration="700" data-aos-once="true">
+                                    <a href="#" class="d-flex justify-content-center align-items-center featured-cars-image-overlay">
+                                        <div>
+                                            <h3>Ford Car</h3>
+                                            <span class="line-break"></span>
+                                            <p>Learn More</p>
+                                        </div>
+                                    </a>
+                                    <img src="img/ford-car.jpg" alt="Photo of Ford car" />
+                                </li>
+                                <li class="featured-cars-image" data-aos="fade-left" data-aos-delay="100" data-aos-duration="700" data-aos-once="true">
+                                    <a href="#" class="d-flex justify-content-center align-items-center featured-cars-image-overlay">
+                                        <div>
+                                            <h3>Ford SUV</h3>
+                                            <span class="line-break"></span>
+                                            <p>Learn More</p>
+                                        </div>
+                                    </a>
+                                    <img src="img/ford-suv.jpg" alt="Photo of Ford SUV" />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 pl-lg" data-aos="fade" data-aos-duration="700" data-aos-once="true">
+                            <h3 class="featured-cars-title">Ford Cars and SUVs</h3>
+                            <p class="featured-cars-content">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.</p>
+                            <a href="#" class="button button-medium button-blue featured-cars-link">View All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="site-footer d-lg-flex justify-content-between align-items-center">
+            <div class="brand d-flex justify-content-between align-items-center">
+                <div class="brand-logo">
+                    <img src="img/icons/logo-autosales.svg" alt="AutoSales.com Logo" />
+                </div>
+                <div class="brand-name"><a href="#">AutoSales.com</a></div>
+            </div>    
+            <nav>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="#">Copyright &copy; 2016 AutoSales.com</a></li>
+                    <li class="footer-menu-item"><a href="#">All rights reserved</a></li>
+                    <li class="footer-menu-item"><a href="#">Privacy Policy</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <script type="text/javascript" src="dist/bundle.js"></script>
+    </body>
+</html>
