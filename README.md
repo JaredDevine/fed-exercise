@@ -47,7 +47,7 @@ I also decided to add a little CSS animation for when the user hovers over the m
 
 ### Hero
 
-For the hero section I added a fade animation for the hero copy. This animation comes from the Animate On Scroll library. I also thought that the hero could use a little extra something, so I created a custom background image scale animation that activates as the user scrolls down the page.
+For the hero section I added a fade animation for the hero copy, this animation comes from the Animate On Scroll library. I also thought that the hero could use a little extra something, so I created a custom background image scale animation that activates as the user scrolls down the page. I have adjusted the position of the background image based on device size, as well as added a transparent gradient overlay for the background image on mobile. This is to make the text more legible while it overlays the image.
 
 Main Content:
 
