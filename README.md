@@ -28,7 +28,7 @@ First off, thank you for the opportunity to complete the FED exercise, I had a l
 
 So I’ll go into my thought process while I was building the site, breaking down each section from top to bottom.
 
-The very first thing I considered was the amount of time given for the exercise. The timeline is always a significant factor in deciding which libraries I am going to use and how much of the libraries I am going to use. I prefer to minimize my library use as much as possible to keep the code light and clean. However, libraries can definitely be effective in speeding up initial scaffolding of the site in order to focus on more interesting (and fun) UI work.
+The very first thing I considered was the structure of the website. The structure of the pages always determines which libraries I am going to use and how much of the libraries I am going to use. I prefer to minimize my library use as much as possible to keep the code light and clean. However, libraries can definitely be effective in speeding up initial scaffolding of the site in order to focus on more interesting (and fun) UI work.
 
 I chose to use Bootstrap 4 to handle the grid layout of the site, as well as adding flexbox to a few select elements.
 
