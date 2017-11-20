@@ -2,7 +2,10 @@
 
 .site-footer {
   background-color: $dark-grey;
-  padding: 56px 38px;
+  padding: 56px 30px;
+  @media (min-width: 992px) {
+    padding: 56px 38px;
+  }
 }
 
 .footer-menu {

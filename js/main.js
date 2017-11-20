@@ -4,20 +4,11 @@ require('.././scss/main.scss');
 require('./vendor/modernizr-3.5.0.min.js');
 import AOS from './vendor/aos';
 
-
-
-
-
-
 $(document).ready(function(){
-  
-
 
   AOS.init({
     disable: 'mobile'
   });
-
-
 
   $('.menu-toggle-icon').on('click', function(){
 
@@ -47,8 +38,6 @@ $(document).ready(function(){
     
   });
 
-
-
   $('.search-icon').on('click', function(){
     
     var winWidth = $(window).width();
@@ -62,8 +51,6 @@ $(document).ready(function(){
     }
   
   });
-
-
 
   $(window).on('scroll', function(){
 
@@ -80,7 +67,5 @@ $(document).ready(function(){
     });
 
   });
-
-
 
 });
