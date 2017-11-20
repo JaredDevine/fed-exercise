@@ -67,6 +67,8 @@ For the footer, I chose to use flexbox again, using the Bootstrap 4 helper class
 
 I chose to use Webpack to consolidate and compile the code throughout the project. I also used Sass to keep the CSS in order.
 
+When writing CSS I always apply the BEM methodology to keep things organized and easy to understand.
+
 I compressed the project images using the website TinyPNG. I find that this website does a better job than most of the popular image editing software out there.
 
 I used the PSD as a reference throughout the project for specific pixel dimensions and colours used.
