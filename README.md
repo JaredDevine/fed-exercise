@@ -4,8 +4,8 @@
 
 * HTML
 * CSS
-* Javascript
 * Sass
+* Javascript
 * Node
 * Webpack
 
